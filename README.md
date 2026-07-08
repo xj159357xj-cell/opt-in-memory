@@ -59,7 +59,7 @@ nano ~/.claude/CLAUDE.md
 
 将以下内容写入 `~/.claude/CLAUDE.md`：
 
-```markdown
+````markdown
 # 全局指令
 
 ## 记忆系统
@@ -117,7 +117,6 @@ description: <one-line summary>
 - 项目特定的记忆写入项目子目录，跨项目通用的写入 general/
 - 保持记忆简洁、可检索
 - 项目文件夹命名用 kebab-case
-```
 
 > **注意**：将上面的 `<你的用户名>` 替换为你的 macOS 用户名（即 `whoami` 的输出）。
 
@@ -132,8 +131,8 @@ description: <one-line summary>
 3. 如果不相关，直接忽略记忆系统
 
 ---
-
 ```
+````
 
 ### 3. 验证配置
 
