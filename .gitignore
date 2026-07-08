@@ -1,0 +1,18 @@
+# 忽略所有记忆内容（不上传 GitHub）
+memory/**/*.md
+
+# 但保留 .gitkeep 文件（用于保留目录结构）
+!memory/**/.gitkeep
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+
+# 临时文件
+*.tmp
+*.log
