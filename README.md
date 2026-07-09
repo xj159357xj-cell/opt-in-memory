@@ -2,7 +2,7 @@
 
 **零依赖、可迁移的轻量级 Agent 长期记忆方案。**
 
-通过"索引预加载 + 按需读取"的两层检索，让 Claude Code 具备跨会话记忆能力，同时保持 context 开销最小化。
+通过"索引预加载 + 按需读取"的两层检索，让 Agent 具备跨会话记忆能力，同时保持 context 开销最小化。
 
 ---
 
@@ -49,7 +49,7 @@ git clone <your-repo-url> ~/Desktop/Claude\ memory
 
 ### 2. 配置 Claude 全局指令
 
-编辑（或新建）`~/.claude/CLAUDE.md`，这是 Claude Code 的**全局配置文件**，对所有项目生效。
+编辑（或新建）`~/.claude/CLAUDE.md`，这是 Claude 的**全局配置文件**，对所有项目生效。
 
 ```bash
 # 如果文件不存在则新建
@@ -139,7 +139,7 @@ description: <one-line summary>
 
 ### 3. 验证配置
 
-打开一个新的 Claude Code 会话，输入：
+打开一个新的 Claude 会话，输入：
 
 ```
 读取 MEMORY.md 索引，告诉我你记住了什么
