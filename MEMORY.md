@@ -5,6 +5,11 @@
 2. 如果相关，读取对应的 `.md` 文件获取完整内容
 3. 如果不相关，直接忽略记忆系统
 
+## 写入规范
+- **禁止只写文件地址**：每个条目必须包含内容概括，不能仅列路径。文件可能迁移，仅有地址无法恢复信息
+- 格式：`路径 — 一句话概括该文件/模块的核心内容`
+- 保持记忆简洁、可检索，不要重复写入已有记忆
+
 ---
 
 ## trav-agent
@@ -22,3 +27,6 @@
 - [tech-stack](memory/abcd/tech-stack.md) — FastAPI+React+ES+PG+Redis技术栈 [标签: 技术栈, RAG, 全栈]
 - [pros-cons](memory/abcd/pros-cons.md) — 优劣势分析 [标签: 评估, 优劣势]
 - [file-map](memory/abcd/file-map.md) — 关键文件路径速查表 [标签: 文件, 路径, 速查]
+
+## article（ddPCR图像分析）
+- [ddPCR-traceable-workflow](memory/article/ddPCR-traceable-workflow.md) — 可追溯ddPCR荧光图像分析工作流：SC-RTMDet分割+GMM伪标签+YOLO26分类+QC [标签: ddPCR, 深度学习, 实例分割, 伪标签]
